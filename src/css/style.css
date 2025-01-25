@@ -2,11 +2,13 @@
     padding: 0;
     list-style: none;
     margin: 0;
-    font-family: "Anton", serif; ;
-    
+    font-family: "Varela Round", serif;
+    font-size: 19px;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     color: black;
+    box-sizing: border-box;
 }
 header {
     box-shadow: 0 1.5px rgba(0, 0, 0, 0.616); /* Definindo o Header **Mega Importante*/
@@ -27,6 +29,12 @@ ul{ /*Centralizando o UL para separar com as Div */
     gap: 1.5rem;
 }
 
+a:hover{
+    background-color: rgb(153, 0, 255);
+
+}
+}
+
 
 
 .div-searchbar, input{ /*Centralizando a Barra de Pesquisa */
@@ -38,8 +46,29 @@ ul{ /*Centralizando o UL para separar com as Div */
         }
     }
 
-a:hover{
-    background-color: rgb(153, 0, 255);
-
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
 }
+.carrosel{
+    filter: drop-shadow(0px 0px 10px #000);
+    overflow: hidden;
+    width: 1250px;
+    height: 570px;
+}
+
+.container{
+    display: flex;
+    transition: 0.7s ease-in-out;
+    transform: translateX(0);
+}
+
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    margin-top: -100px;
 }
