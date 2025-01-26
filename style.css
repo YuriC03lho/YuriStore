@@ -25,6 +25,7 @@ a:hover{
     color: white;
     border-style: none;
     border-radius: 4px ;
+    box-shadow: 0px 0px 4px black;
 
 }
 }
@@ -101,7 +102,7 @@ main{
         background-color: red;
     }
     button{
-        background-color: rgb(153, 0, 255);
+        
         border-radius: 5px;
         border-style: none;
         color: white;
@@ -110,7 +111,17 @@ main{
 
     }
     
-/* Alihnhar o Button no meio*/
+    .container-game button:hover{
+    background-color: #9900ff;
+            
+    
+    }
+    .container-game a:hover{
+        color: white;
+        filter: drop-shadow(0px 0px 4px black)
+
+    }
+
 
 }
 .container-card
