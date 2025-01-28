@@ -13,7 +13,7 @@ Responsavidade
 <br>
 Barra de Pesquisa Funcional
 <br>
-✅ Subir código para um Site.  
+🟠 Subir código para um Site.  
 <br>
   <ol>
     <li>Adicionar games de forma que não precise alterar o código.</li>
@@ -23,5 +23,5 @@ Barra de Pesquisa Funcional
  
   
 <h1>Como eu rodo o site? 🤔🤔</h3>
-você conseguer acessar o projeto por este link aqui: https://yuristore-npx25ix7b-yuric03lhos-projects.vercel.app <br>
+você conseguer acessar o projeto por este link aqui: <stroke> https://yuristore.vercel.app/ </stroke> <br>
 ou também corrente embaixo da descrição do Projeto, apenas clique que ira acessar. 
