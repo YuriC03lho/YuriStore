@@ -16,7 +16,7 @@ ul{ /*Centralizando o UL para separar com as Div */
     display: flex;
     justify-content: space-between;
     align-items:center;
-
+    padding-right: 1.5rem;
     gap: 1.5rem;
 }
 
@@ -96,6 +96,8 @@ main{
     }
     p{
         width: 75%;
+        color: black;
+        
     }
 
     ul::hover{

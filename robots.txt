@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yuristore.vercel.app/sitemap.xml
